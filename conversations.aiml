@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<meta name="language" content="pl"/>
+<category>
+  <pattern> Cześć * </pattern>
+  <template>
+  	<random>
+     <li> Hej </li>
+     <li> Witaj </li>
+     <li> Cześć </li>
+     <li> Dzień dobry </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Cześć </pattern>
+  <template>
+  	<random>
+     <li> Hej </li>
+     <li> Witaj </li>
+     <li> Cześć </li>
+     <li> Dzień dobry </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Hej * </pattern>
+  <template>
+  	<random>
+     <li> Hej </li>
+     <li> Witaj </li>
+     <li> Cześć </li>
+     <li> Dzień dobry </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Hej </pattern>
+  <template>
+  	<random>
+     <li> Hej </li>
+     <li> Witaj </li>
+     <li> Cześć </li>
+     <li> Dzień dobry </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Szukaj * </pattern>
+  <template>
+	<random>
+     <li> Znalazłem </li>
+     <li> Mam to: </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Znajdź * </pattern>
+  <template>
+  	<random>
+     <li> Znalazłem </li>
+     <li> Mam to: </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Jaki * </pattern>
+  <template>
+  	<random>
+     <li> Znalazłem </li>
+     <li> Mam to: </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Jaka * </pattern>
+  <template>
+  	<random>
+     <li> Znalazłem </li>
+     <li> Mam to: </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Jakie * </pattern>
+  <template>
+  	<random>
+     <li> Znalazłem </li>
+     <li> Mam to: </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Kto * </pattern>
+  <template>
+  	<random>
+     <li> Znalazłem </li>
+     <li> Mam to: </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Czyj * </pattern>
+  <template>
+  	<random>
+     <li> Znalazłem </li>
+     <li> Mam to: </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Czyje * </pattern>
+  <template>
+  	<random>
+     <li> Znalazłem </li>
+     <li> Mam to: </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Czyja * </pattern>
+  <template>
+  	<random>
+     <li> Znalazłem </li>
+     <li> Mam to: </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Z * </pattern>
+  <template>
+  	<random>
+     <li> Znalazłem </li>
+     <li> Mam to: </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Jak * </pattern>
+  <template>
+  	<random>
+     <li> Znalazłem </li>
+     <li> Mam to: </li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern> Wyświetl * </pattern>
+  <template>
+    Proszę bardzo
+  </template>
+</category>
+<category>
+  <pattern> Nie * </pattern>
+  <template>
+  	Albo...
+  </template>
+</category>
+<category>
+  <pattern> Jesteś pewien </pattern>
+  <template>
+     Albo...
+  </template>
+</category>
+<category>
+  <pattern> Na pewno </pattern>
+  <template>
+  	Albo...
+  </template>
+</category>
+<category>
+  <pattern> Żadne * </pattern>
+  <template>
+  	Pogubiłem się zacznijmy od nowa.
+  </template>
+</category>
+<category>
+  <pattern> Nic * </pattern>
+  <template>
+  	Pogubiłem się zacznijmy od nowa.
+  </template>
+</category>
+<category>
+  <pattern> * </pattern>
+  <template>
+  	<random>
+     <li> OK </li>
+     <li> Masz rację </li>
+     <li> Nie wiem, nie znam sie, zarobiony jestem... </li>
+    </random>
+  </template>
+</category>
+</aiml>
