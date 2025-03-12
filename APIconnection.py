@@ -6,8 +6,8 @@ from urllib.parse import urlencode
 class Connector:
 
     def __init__(self):
-        self._CLIENT_ID = "345203decad2499b850b25163847ba32"
-        self._SECRET_KEY = "006237d49b5140a1a2d331e060a5d451"
+        self._CLIENT_ID = ""
+        self._SECRET_KEY = ""
 
     def _get_token(self):
         authStr=self._CLIENT_ID+":"+self._SECRET_KEY
